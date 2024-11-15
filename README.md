@@ -15,7 +15,7 @@ Como Rodar o Projeto na Sua Máquina
 
 Primeiro, clone o repositório para a sua máquina local:
 
-git clone https://github.com/seu-usuario/app-notas-academicas.git
+git clone https://github.com/isaacarvalho-pro/app-notas-academicas
 
 Depois de clonar, entre no diretório do projeto:
 
