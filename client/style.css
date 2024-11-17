@@ -51,7 +51,7 @@ h1 {
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.vanilla:hover {
+.logo.note:hover {
   filter: drop-shadow(0 0 2em #f7df1eaa);
 }
 
@@ -63,7 +63,7 @@ h1 {
   color: #888;
 }
 
-button {
+.button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -75,7 +75,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #1b1c33;
 }
 button:focus,
 button:focus-visible {
