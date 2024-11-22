@@ -1,14 +1,70 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+    height: 100%;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
 main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%; /* garante que ocupe a largura total */
+    width: 100%; 
+    height: 100%;
 }
 
-.card-cadastro{
+.card-cadlog{
     display: flex;
     align-items: center;
-    justify-content: center;
     border: 0.1rem solid black;
     width: 40em;
+    height: 100%;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-block: 20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nome, #email, #senha, #confirmar_senha{
+    width: 100%;
+    padding-inline: 15px;
+    padding-block: 4px;
+    margin-bottom: 15px;
+}
+
+#botao_enviar{
+    text-decoration: none;
+    border: none;
+    padding-block: 12px;
+    padding-inline: 22px;
+    border-radius: 8px;
+    color: #646cff;
+    background-color: #1a1a1a;
+    cursor: pointer;
+}
+
+#botao_enviar:hover{
+    color: #555dfc;
+}
+
+#botao_troca{
+    color: #646cff;
+}
+
+#botao_troca:hover{
+    color: #555dfc;
 }
